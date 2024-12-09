@@ -14,7 +14,12 @@ public class PlayerController : MonoBehaviour
     [Header("Camera Settings")]
     public Camera firstPersonCamera;  //1인칭 카메라
     public Camera thridPersonCamera; //3인칭 카메라 
-    public float mouseSensitivity = 2.0f;  //카메라 감도 
+    
+    public float mouseSensitivity = 200.0f;  //카메라 감도
+
+    public float cameraDistance = 5.0f;                                         
+    public float minDistance = 1.0f;                                         
+    public float maxDistance = 10.0f;                                         
 
     public float radius = 5.0f;  //3인칭 카메라와 플레이어 간의 거리 
     public float minRadius = 1.0f;  //카메라 최소 거리
